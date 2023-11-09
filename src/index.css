@@ -161,6 +161,13 @@ header h1 {
     margin: 0 auto;
 }
 
+@media (max-width: 415px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
 .budget-container {
     margin-top: -5rem;
     display: flex;
